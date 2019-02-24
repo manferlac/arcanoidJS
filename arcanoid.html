@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<style>
+		
+		div{
+				position: absolute;
+			}
+		#marco {
+		width: 500px;
+		height: 500px;
+		border: 1px solid;
+		background-image:url(DSCN0078_JPG.jpg)
+		}
+		
+		#segundo {
+		width: 100px;
+		height: 200px;
+		border: 1px solid;
+		color:#F00;
+		margin-left:510px;
+		background-color:#9CC;
+		text-align:center;
+		
+		}
+		
+		
+		#vida1 {
+			margin-left:40px;
+		}
+		
+		#vida2 {
+			margin-left:40px;
+			margin-top:30px;
+		}
+		
+		#vida3 {
+			margin-left:40px;
+			margin-top:60px;
+		}
+		
+		
+		#bola {
+		}
+		
+		#form {
+			text-align:center;
+			margin-top:90px;
+		}
+		
+		
+		#barra1 {
+		margin-top = 475px;
+		margin-left = 200px;
+		
+		}
+		
+		</style>
+		
+		<title>Arcanoid</title>
+        
+</head>
+<body>
+<div id="marco">
+	<div id="bola"><img src="bola.jpg"/>
+	</div>
+	<div id="barra1"><img src="barra.jpg"/>
+	</div>
+</div>
+<div id="segundo">
+
+Vidas
+<br>
+	<div id="vida1"><img src="bola.jpg" />
+    </div> 
+    <div id="vida2"><img src="bola.jpg" />
+    </div> 
+    <div id="vida3"><img src="bola.jpg" />
+    </div> 
+    
+    <form id="form">
+    Puntuacion
+    	<input type="text" disabled="true" size="5" id="puntu"/>
+    </form>
+
+</div>
+<script type="text/javascript" src="juego2.js"></script>
+</body>
+</html>
